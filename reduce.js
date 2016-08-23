@@ -6,3 +6,9 @@ var numbers = [1, 56, 2, 4, 1, 99, 3, 5];
 // via multiplication
 
 
+function multiply(a,b) {
+	return a*b;
+}
+
+var total = numbers.reduce(multiply);
+console.log(total);

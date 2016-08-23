@@ -8,3 +8,7 @@ var people = ['Bob', 'Jen', 'James', 'Isolde'];
 // console.log(people);
 // > [ 'BOB', 'JEN', 'JAMES', 'ISOLDE' ]
 
+var upperCaseNames = people.map(function(x){
+	return x.toUpperCase();
+})
+console.log(upperCaseNames);
